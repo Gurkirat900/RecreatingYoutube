@@ -1,0 +1,124 @@
+.searchbar{
+    font-size: 20px;
+    display: block;
+    flex: 1;
+    height: 50px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 2px;
+    width: 0;
+ }
+ .searchbar::placeholder{
+   font-family: Roboto, Arial;
+   font-size: 25px;
+ }
+
+ .header{
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(224, 222, 222);
+    z-index: 100;
+ }
+
+ .left-section{
+    display: flex;
+    align-items: center;
+ }
+
+ .hamburger{
+   height: 27px ;
+   margin-left: 20px;
+   margin-right: 23px;
+ }
+
+ .youtube-logo{
+   height: 25px;
+
+ }
+ .middle-section{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 600px;
+ }
+
+ .search{
+   width: 60px;
+   height: 50px;
+   border-width: 1px;
+   border-color: gray;
+   margin-left: -1px;
+ }
+
+ .voice-search{
+   width: 46px;
+   height: 46px;
+   background-color:rgb(236, 228, 228);
+   border:none; 
+   margin-left: 10px;
+   border-radius: 23px;
+ }
+
+ .search-icon{
+   height: 30px;
+ }
+
+ .right-section{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+ }
+
+ .upload-icon{
+   height: 37px;
+ }
+
+.youtube-apps-icon{
+   height: 37px;
+}
+
+.notifications-countainer{
+   position: relative;
+}
+
+.notifications-icon{
+   height: 37px;
+}
+
+.notification-count{
+   background-color: red;
+   position: absolute;
+   top: 0;
+   right: 0;
+   color: white;
+   font-family: Roboto, Arial;
+   border-radius: 11px;
+   padding-left: 4px;
+   padding-top: 2px;
+   padding-right: 4px;
+   padding-bottom: 2px;
+   font-size: 12px;
+
+}
+
+.profile-icon{
+   height: 46px;
+   border-radius: 23px  ;
+
+}
